@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/edtNomLibro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingTop="15dp"
+        android:hint="Nombre del Libro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtNomAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingTop="15dp"
+        android:hint="Nombre del Autor"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/edtNomEditorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingTop="15dp"
+        android:hint="Nombre de la Editorial"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Lista de Libros"/>
+
+    <ListView
+        android:id="@+id/lsvListaLibros"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
